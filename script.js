@@ -4,13 +4,18 @@ const machineScore = document.querySelector(".machine-score");
 
 let humanScoreNumber = 0
 let machineScoreNumber = 0
+const GAME_OPTIONS = {
+  ROCK: 'rock',
+  PAPER: 'paper',
+  SCISSORS: 'scissors',
+}
 
 const playHuman = (humanChoice) => {
   playTheGame(humanChoice, playMachine())
 }
 
 const playMachine = () => {
-  const choices = ['rock', 'paper', 'scissors']
+  const choices = [GAME_OPTIONS.ROCK, GAME_OPTIONS.PAPER, GAME_OPTIONS.SCISSORS]
   const randomNumber = [Math.floor(Math.random() * 3)]
   return choices[randomNumber]
 }
@@ -35,21 +40,3 @@ const playTheGame = (human, machine) => {
   }
 }
 
-/*
-# Jogo Jokenpo
-
-Um simples jogo de pedra, papel e tesoura desenvolvido com HTML, CSS e JavaScript.
-
-## Funcionalidades
-
-- Jogabilidade clássica de pedra, papel e tesoura.
-- Interface gráfica atraente e responsiva.
-
-## Como jogar
-
-1. Abra o arquivo `index.html` no seu navegador.
-2. Escolha entre pedra, papel ou tesoura clicando no botão correspondente.
-3. O computador fará uma escolha aleatória.
-4. Descubra quem ganhou!
-
-*/
