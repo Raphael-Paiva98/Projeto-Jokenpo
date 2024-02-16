@@ -1,0 +1,139 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url("https://i0.wp.com/heroisx.com/wp-content/uploads/2015/07/Jokenpo-coisa-wolverine-e-gambit.gif");
+    background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+h1 {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Honk', system-ui;
+    font-size: 70px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 600px;
+    font-size: 60px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 90px;
+    transition: all .5s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#papel {
+    margin-left: 490px;
+    margin-top: -80px;
+}
+
+#tesoura {
+    margin-left: 810px;
+    margin-top: -80px;
+}
+
+#pedra {
+    margin-left: 645px;
+
+}
+
+p {
+    font-family: 'Honk', system-ui;
+    font-size: 50px;
+
+}
+
+span {
+    font-family: 'Honk', system-ui;
+    font-size: 50px;
+}
+
+.my-score {
+    display: flex;
+    margin-top: -10px;
+    
+}
+
+.score-ia {
+    display: flex;
+    margin-left: 950px;
+    margin-top: -60px;
+    letter-spacing: 1px;
+}
+
+.result {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 950px) {
+    h1 {
+    font-size: 50px;
+    }
+   
+    button {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 20px;
+    }
+   
+    #papel {
+    margin-left: 30px;
+    margin-top: -68px;
+    }
+   
+    #tesoura {
+    margin-left: 290px;
+    margin-top: -65px;
+    }
+   
+    #pedra {
+    margin-left: 160px;
+    margin-top: 60px;
+    }
+   
+    .score-ia {
+    margin-left: 0px;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    }
+
+    .my-score{
+        margin-left: 0px;
+        margin-top: 80px;
+        letter-spacing: 1px;
+    }
+
+    .result{
+        margin-top: 100px;
+  
+    }
+}

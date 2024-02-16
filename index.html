@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Jokenpo</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>JO - KEN - PO</h1>
+
+        <button id="pedra" onclick="playHuman('rock')">&#x1F44A;</button>
+        <button id="papel"  onclick="playHuman('paper')">&#x1F590;</button>
+        <button id="tesoura"  onclick="playHuman('scissors')">&#x270C;</button>
+
+        <p class="my-score">Sua pontuação:<span class="human-score">0</span></p>
+        <p class="score-ia">Pontuação da Ia:<span class="machine-score">0</span>
+            <p class="result"></p>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
+
