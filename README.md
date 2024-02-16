@@ -1,4 +1,4 @@
-/*
+
 # Jogo Jokenpo
 
 Um simples jogo de pedra, papel e tesoura desenvolvido com HTML, CSS e JavaScript.
@@ -15,4 +15,4 @@ Um simples jogo de pedra, papel e tesoura desenvolvido com HTML, CSS e JavaScrip
 3. O computador fará uma escolha aleatória.
 4. Descubra quem ganhou!
 
-*/
+
